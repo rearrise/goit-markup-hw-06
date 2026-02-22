@@ -375,6 +375,7 @@ img {
 }
 .footer-wrapper {
   margin-left: 0;
+  height: 80px;
 }
 .footer > .container {
   display: flex;
