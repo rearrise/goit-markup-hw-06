@@ -605,6 +605,7 @@ img {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   outline: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .feedback-input:focus {
   border-color: #4d5ae5;
@@ -641,6 +642,10 @@ img {
   color: rgba(46, 47, 66, 0.4);
 }
 .feedback-agreement {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
   display: block;
   margin-bottom: 24px;
   color: #8e8f99;
