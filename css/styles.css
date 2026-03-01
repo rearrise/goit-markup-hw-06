@@ -443,6 +443,9 @@ img {
 .footer-form-label {
   flex-basis: 264px;
 }
+.footer-form-label ::placeholder {
+  color: #fff;
+}
 .footer-form-field {
   width: 100%;
   height: 40px;
@@ -451,8 +454,11 @@ img {
   border: 1px solid #fff;
   outline: none;
   background-color: transparent;
-  color: #ffff;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #fff;
 }
 .footer-form-field:focus {
   border-color: #31d0aa;
@@ -548,6 +554,7 @@ img {
   height: 24px;
   width: 24px;
   border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
   fill: #2e2f42;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: fill, background-color;
@@ -584,7 +591,7 @@ img {
 
 /* #region Modal Form */
 .feedback-wrapper {
-  margin-bottom: 4px;
+  margin-bottom: 8px;
 }
 .feedback-label {
   display: block;
@@ -628,18 +635,23 @@ img {
   padding: 8px 16px 16px;
 
   font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   outline: none;
   resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  margin-bottom: 16px;
 }
 .feedback-comment:focus {
   border-color: #4d5ae5;
 }
 .feedback-comment::placeholder {
   color: rgba(46, 47, 66, 0.4);
+}
+.feedback-wrapper-comm {
+  margin-bottom: 16px;
 }
 .feedback-agreement {
   font-size: 12px;
