@@ -112,6 +112,16 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
 }
+@media only screen and (min-width: 768px) {
+  .logo {
+    margin-right: 120px;
+  }
+}
+@media only screen and (min-width: 1158px) {
+  .logo {
+    margin-right: 76px;
+  }
+}
 .header-logo .logo-dark {
   color: #2e2f42;
 }
@@ -993,7 +1003,7 @@ img {
   position: fixed;
   top: 0;
   left: 0;
-  transform: translate(100%);
+  transform: translateX(100%);
 
   display: flex;
   flex-direction: column;
@@ -1067,7 +1077,7 @@ img {
   color: #434455;
 }
 .mobile-menu-contacts-link.active {
-  color: #404bbf;
+  color: #4d5ae5;
 }
 .mobile-socials {
   display: flex;
